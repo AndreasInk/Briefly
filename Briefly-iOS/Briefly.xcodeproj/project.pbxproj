@@ -1,0 +1,1285 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E181F2872C1EA4E800208F27 /* BriefView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E181F2862C1EA4E800208F27 /* BriefView.swift */; };
+		E181F2892C1EA4FD00208F27 /* BriefSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E181F2882C1EA4FD00208F27 /* BriefSectionView.swift */; };
+		E181F28B2C1EA53300208F27 /* GradientBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E181F28A2C1EA53300208F27 /* GradientBackgroundView.swift */; };
+		E181F28D2C1EA68400208F27 /* Graident+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = E181F28C2C1EA67E00208F27 /* Graident+Ext.swift */; };
+		E181F28F2C1EA8A600208F27 /* RevenueChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E181F28E2C1EA8A600208F27 /* RevenueChartView.swift */; };
+		E181F2912C1EACEB00208F27 /* GreetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E181F2902C1EACE800208F27 /* GreetingView.swift */; };
+		E181F2992C1F380300208F27 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E181F2982C1F380300208F27 /* WidgetKit.framework */; };
+		E181F29B2C1F380300208F27 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E181F29A2C1F380300208F27 /* SwiftUI.framework */; };
+		E181F29E2C1F380300208F27 /* BrieflyWidgetsLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = E181F29D2C1F380300208F27 /* BrieflyWidgetsLiveActivity.swift */; };
+		E181F2A02C1F380300208F27 /* BrieflyWidgetsBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E181F29F2C1F380300208F27 /* BrieflyWidgetsBundle.swift */; };
+		E181F2A22C1F380300208F27 /* BrieflyWidgetsControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = E181F2A12C1F380300208F27 /* BrieflyWidgetsControl.swift */; };
+		E181F2A42C1F380300208F27 /* BrieflyWidgets.swift in Sources */ = {isa = PBXBuildFile; fileRef = E181F2A32C1F380300208F27 /* BrieflyWidgets.swift */; };
+		E181F2A62C1F380500208F27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E181F2A52C1F380500208F27 /* Assets.xcassets */; };
+		E181F2AA2C1F380500208F27 /* BrieflyWidgetsExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = E181F2962C1F380300208F27 /* BrieflyWidgetsExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E181F2B62C1F387600208F27 /* BrieflyWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E181F2B52C1F387600208F27 /* BrieflyWatchApp.swift */; };
+		E181F2B82C1F387600208F27 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E181F2B72C1F387600208F27 /* ContentView.swift */; };
+		E181F2BA2C1F387700208F27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E181F2B92C1F387700208F27 /* Assets.xcassets */; };
+		E181F2BD2C1F387700208F27 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E181F2BC2C1F387700208F27 /* Preview Assets.xcassets */; };
+		E181F2C72C1F387700208F27 /* BrieflyWatch_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E181F2C62C1F387700208F27 /* BrieflyWatch_Watch_AppTests.swift */; };
+		E181F2D12C1F387700208F27 /* BrieflyWatch_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E181F2D02C1F387700208F27 /* BrieflyWatch_Watch_AppUITests.swift */; };
+		E181F2D32C1F387700208F27 /* BrieflyWatch_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E181F2D22C1F387700208F27 /* BrieflyWatch_Watch_AppUITestsLaunchTests.swift */; };
+		E181F2D62C1F387700208F27 /* BrieflyWatch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = E181F2B32C1F387600208F27 /* BrieflyWatch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E1B3F10C2C1F39E10083CA0B /* BrieflyWidgetsExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = E181F2962C1F380300208F27 /* BrieflyWidgetsExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E1BCBE422C1E6F0000ED7C48 /* BrieflyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BCBE412C1E6F0000ED7C48 /* BrieflyApp.swift */; };
+		E1BCBE442C1E6F0000ED7C48 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BCBE432C1E6F0000ED7C48 /* ContentView.swift */; };
+		E1BCBE462C1E6F0000ED7C48 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BCBE452C1E6F0000ED7C48 /* Item.swift */; };
+		E1BCBE482C1E6F0200ED7C48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1BCBE472C1E6F0200ED7C48 /* Assets.xcassets */; };
+		E1BCBE4C2C1E6F0200ED7C48 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1BCBE4B2C1E6F0200ED7C48 /* Preview Assets.xcassets */; };
+		E1BCBE562C1E6F0200ED7C48 /* BrieflyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BCBE552C1E6F0200ED7C48 /* BrieflyTests.swift */; };
+		E1BCBE602C1E6F0200ED7C48 /* BrieflyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BCBE5F2C1E6F0200ED7C48 /* BrieflyUITests.swift */; };
+		E1BCBE622C1E6F0200ED7C48 /* BrieflyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BCBE612C1E6F0200ED7C48 /* BrieflyUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E181F2A82C1F380500208F27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1BCBE362C1E6F0000ED7C48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E181F2952C1F380300208F27;
+			remoteInfo = BrieflyWidgetsExtension;
+		};
+		E181F2C32C1F387700208F27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1BCBE362C1E6F0000ED7C48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E181F2B22C1F387600208F27;
+			remoteInfo = "BrieflyWatch Watch App";
+		};
+		E181F2CD2C1F387700208F27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1BCBE362C1E6F0000ED7C48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E181F2B22C1F387600208F27;
+			remoteInfo = "BrieflyWatch Watch App";
+		};
+		E181F2D42C1F387700208F27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1BCBE362C1E6F0000ED7C48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E181F2B22C1F387600208F27;
+			remoteInfo = "BrieflyWatch Watch App";
+		};
+		E1B3F10D2C1F39E10083CA0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1BCBE362C1E6F0000ED7C48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E181F2952C1F380300208F27;
+			remoteInfo = BrieflyWidgetsExtension;
+		};
+		E1BCBE522C1E6F0200ED7C48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1BCBE362C1E6F0000ED7C48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1BCBE3D2C1E6F0000ED7C48;
+			remoteInfo = Briefly;
+		};
+		E1BCBE5C2C1E6F0200ED7C48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1BCBE362C1E6F0000ED7C48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1BCBE3D2C1E6F0000ED7C48;
+			remoteInfo = Briefly;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E181F2AE2C1F380500208F27 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				E181F2AA2C1F380500208F27 /* BrieflyWidgetsExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E181F2DA2C1F387700208F27 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				E181F2D62C1F387700208F27 /* BrieflyWatch Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1B3F10F2C1F39E10083CA0B /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				E1B3F10C2C1F39E10083CA0B /* BrieflyWidgetsExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E181F2862C1EA4E800208F27 /* BriefView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BriefView.swift; sourceTree = "<group>"; };
+		E181F2882C1EA4FD00208F27 /* BriefSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BriefSectionView.swift; sourceTree = "<group>"; };
+		E181F28A2C1EA53300208F27 /* GradientBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientBackgroundView.swift; sourceTree = "<group>"; };
+		E181F28C2C1EA67E00208F27 /* Graident+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Graident+Ext.swift"; sourceTree = "<group>"; };
+		E181F28E2C1EA8A600208F27 /* RevenueChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RevenueChartView.swift; sourceTree = "<group>"; };
+		E181F2902C1EACE800208F27 /* GreetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingView.swift; sourceTree = "<group>"; };
+		E181F2962C1F380300208F27 /* BrieflyWidgetsExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = BrieflyWidgetsExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		E181F2982C1F380300208F27 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		E181F29A2C1F380300208F27 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		E181F29D2C1F380300208F27 /* BrieflyWidgetsLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrieflyWidgetsLiveActivity.swift; sourceTree = "<group>"; };
+		E181F29F2C1F380300208F27 /* BrieflyWidgetsBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrieflyWidgetsBundle.swift; sourceTree = "<group>"; };
+		E181F2A12C1F380300208F27 /* BrieflyWidgetsControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrieflyWidgetsControl.swift; sourceTree = "<group>"; };
+		E181F2A32C1F380300208F27 /* BrieflyWidgets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrieflyWidgets.swift; sourceTree = "<group>"; };
+		E181F2A52C1F380500208F27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E181F2A72C1F380500208F27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E181F2B32C1F387600208F27 /* BrieflyWatch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BrieflyWatch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E181F2B52C1F387600208F27 /* BrieflyWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrieflyWatchApp.swift; sourceTree = "<group>"; };
+		E181F2B72C1F387600208F27 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E181F2B92C1F387700208F27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E181F2BC2C1F387700208F27 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E181F2C22C1F387700208F27 /* BrieflyWatch Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BrieflyWatch Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E181F2C62C1F387700208F27 /* BrieflyWatch_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrieflyWatch_Watch_AppTests.swift; sourceTree = "<group>"; };
+		E181F2CC2C1F387700208F27 /* BrieflyWatch Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BrieflyWatch Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E181F2D02C1F387700208F27 /* BrieflyWatch_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrieflyWatch_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		E181F2D22C1F387700208F27 /* BrieflyWatch_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrieflyWatch_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E1BCBE3E2C1E6F0000ED7C48 /* Briefly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Briefly.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1BCBE412C1E6F0000ED7C48 /* BrieflyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrieflyApp.swift; sourceTree = "<group>"; };
+		E1BCBE432C1E6F0000ED7C48 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E1BCBE452C1E6F0000ED7C48 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		E1BCBE472C1E6F0200ED7C48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E1BCBE492C1E6F0200ED7C48 /* Briefly.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Briefly.entitlements; sourceTree = "<group>"; };
+		E1BCBE4B2C1E6F0200ED7C48 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E1BCBE512C1E6F0200ED7C48 /* BrieflyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrieflyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1BCBE552C1E6F0200ED7C48 /* BrieflyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrieflyTests.swift; sourceTree = "<group>"; };
+		E1BCBE5B2C1E6F0200ED7C48 /* BrieflyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrieflyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1BCBE5F2C1E6F0200ED7C48 /* BrieflyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrieflyUITests.swift; sourceTree = "<group>"; };
+		E1BCBE612C1E6F0200ED7C48 /* BrieflyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrieflyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E181F2932C1F380300208F27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E181F29B2C1F380300208F27 /* SwiftUI.framework in Frameworks */,
+				E181F2992C1F380300208F27 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E181F2B02C1F387600208F27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E181F2BF2C1F387700208F27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E181F2C92C1F387700208F27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1BCBE3B2C1E6F0000ED7C48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1BCBE4E2C1E6F0200ED7C48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1BCBE582C1E6F0200ED7C48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E181F2972C1F380300208F27 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E181F2982C1F380300208F27 /* WidgetKit.framework */,
+				E181F29A2C1F380300208F27 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E181F29C2C1F380300208F27 /* BrieflyWidgets */ = {
+			isa = PBXGroup;
+			children = (
+				E181F29D2C1F380300208F27 /* BrieflyWidgetsLiveActivity.swift */,
+				E181F29F2C1F380300208F27 /* BrieflyWidgetsBundle.swift */,
+				E181F2A12C1F380300208F27 /* BrieflyWidgetsControl.swift */,
+				E181F2A32C1F380300208F27 /* BrieflyWidgets.swift */,
+				E181F2A52C1F380500208F27 /* Assets.xcassets */,
+				E181F2A72C1F380500208F27 /* Info.plist */,
+			);
+			path = BrieflyWidgets;
+			sourceTree = "<group>";
+		};
+		E181F2B42C1F387600208F27 /* BrieflyWatch Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				E181F2B52C1F387600208F27 /* BrieflyWatchApp.swift */,
+				E181F2B72C1F387600208F27 /* ContentView.swift */,
+				E181F2B92C1F387700208F27 /* Assets.xcassets */,
+				E181F2BB2C1F387700208F27 /* Preview Content */,
+			);
+			path = "BrieflyWatch Watch App";
+			sourceTree = "<group>";
+		};
+		E181F2BB2C1F387700208F27 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E181F2BC2C1F387700208F27 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E181F2C52C1F387700208F27 /* BrieflyWatch Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				E181F2C62C1F387700208F27 /* BrieflyWatch_Watch_AppTests.swift */,
+			);
+			path = "BrieflyWatch Watch AppTests";
+			sourceTree = "<group>";
+		};
+		E181F2CF2C1F387700208F27 /* BrieflyWatch Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E181F2D02C1F387700208F27 /* BrieflyWatch_Watch_AppUITests.swift */,
+				E181F2D22C1F387700208F27 /* BrieflyWatch_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "BrieflyWatch Watch AppUITests";
+			sourceTree = "<group>";
+		};
+		E1BCBE352C1E6F0000ED7C48 = {
+			isa = PBXGroup;
+			children = (
+				E1BCBE402C1E6F0000ED7C48 /* Briefly */,
+				E1BCBE542C1E6F0200ED7C48 /* BrieflyTests */,
+				E1BCBE5E2C1E6F0200ED7C48 /* BrieflyUITests */,
+				E181F29C2C1F380300208F27 /* BrieflyWidgets */,
+				E181F2B42C1F387600208F27 /* BrieflyWatch Watch App */,
+				E181F2C52C1F387700208F27 /* BrieflyWatch Watch AppTests */,
+				E181F2CF2C1F387700208F27 /* BrieflyWatch Watch AppUITests */,
+				E181F2972C1F380300208F27 /* Frameworks */,
+				E1BCBE3F2C1E6F0000ED7C48 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E1BCBE3F2C1E6F0000ED7C48 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1BCBE3E2C1E6F0000ED7C48 /* Briefly.app */,
+				E1BCBE512C1E6F0200ED7C48 /* BrieflyTests.xctest */,
+				E1BCBE5B2C1E6F0200ED7C48 /* BrieflyUITests.xctest */,
+				E181F2962C1F380300208F27 /* BrieflyWidgetsExtension.appex */,
+				E181F2B32C1F387600208F27 /* BrieflyWatch Watch App.app */,
+				E181F2C22C1F387700208F27 /* BrieflyWatch Watch AppTests.xctest */,
+				E181F2CC2C1F387700208F27 /* BrieflyWatch Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1BCBE402C1E6F0000ED7C48 /* Briefly */ = {
+			isa = PBXGroup;
+			children = (
+				E1BCBE412C1E6F0000ED7C48 /* BrieflyApp.swift */,
+				E1BCBE432C1E6F0000ED7C48 /* ContentView.swift */,
+				E181F2902C1EACE800208F27 /* GreetingView.swift */,
+				E181F28E2C1EA8A600208F27 /* RevenueChartView.swift */,
+				E181F2862C1EA4E800208F27 /* BriefView.swift */,
+				E181F28C2C1EA67E00208F27 /* Graident+Ext.swift */,
+				E181F28A2C1EA53300208F27 /* GradientBackgroundView.swift */,
+				E181F2882C1EA4FD00208F27 /* BriefSectionView.swift */,
+				E1BCBE452C1E6F0000ED7C48 /* Item.swift */,
+				E1BCBE472C1E6F0200ED7C48 /* Assets.xcassets */,
+				E1BCBE492C1E6F0200ED7C48 /* Briefly.entitlements */,
+				E1BCBE4A2C1E6F0200ED7C48 /* Preview Content */,
+			);
+			path = Briefly;
+			sourceTree = "<group>";
+		};
+		E1BCBE4A2C1E6F0200ED7C48 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E1BCBE4B2C1E6F0200ED7C48 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E1BCBE542C1E6F0200ED7C48 /* BrieflyTests */ = {
+			isa = PBXGroup;
+			children = (
+				E1BCBE552C1E6F0200ED7C48 /* BrieflyTests.swift */,
+			);
+			path = BrieflyTests;
+			sourceTree = "<group>";
+		};
+		E1BCBE5E2C1E6F0200ED7C48 /* BrieflyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E1BCBE5F2C1E6F0200ED7C48 /* BrieflyUITests.swift */,
+				E1BCBE612C1E6F0200ED7C48 /* BrieflyUITestsLaunchTests.swift */,
+			);
+			path = BrieflyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E181F2952C1F380300208F27 /* BrieflyWidgetsExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E181F2AB2C1F380500208F27 /* Build configuration list for PBXNativeTarget "BrieflyWidgetsExtension" */;
+			buildPhases = (
+				E181F2922C1F380300208F27 /* Sources */,
+				E181F2932C1F380300208F27 /* Frameworks */,
+				E181F2942C1F380300208F27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BrieflyWidgetsExtension;
+			productName = BrieflyWidgetsExtension;
+			productReference = E181F2962C1F380300208F27 /* BrieflyWidgetsExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		E181F2B22C1F387600208F27 /* BrieflyWatch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E181F2D72C1F387700208F27 /* Build configuration list for PBXNativeTarget "BrieflyWatch Watch App" */;
+			buildPhases = (
+				E181F2AF2C1F387600208F27 /* Sources */,
+				E181F2B02C1F387600208F27 /* Frameworks */,
+				E181F2B12C1F387600208F27 /* Resources */,
+				E1B3F10F2C1F39E10083CA0B /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1B3F10E2C1F39E10083CA0B /* PBXTargetDependency */,
+			);
+			name = "BrieflyWatch Watch App";
+			productName = "BrieflyWatch Watch App";
+			productReference = E181F2B32C1F387600208F27 /* BrieflyWatch Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E181F2C12C1F387700208F27 /* BrieflyWatch Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E181F2DB2C1F387700208F27 /* Build configuration list for PBXNativeTarget "BrieflyWatch Watch AppTests" */;
+			buildPhases = (
+				E181F2BE2C1F387700208F27 /* Sources */,
+				E181F2BF2C1F387700208F27 /* Frameworks */,
+				E181F2C02C1F387700208F27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E181F2C42C1F387700208F27 /* PBXTargetDependency */,
+			);
+			name = "BrieflyWatch Watch AppTests";
+			productName = "BrieflyWatch Watch AppTests";
+			productReference = E181F2C22C1F387700208F27 /* BrieflyWatch Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E181F2CB2C1F387700208F27 /* BrieflyWatch Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E181F2DE2C1F387700208F27 /* Build configuration list for PBXNativeTarget "BrieflyWatch Watch AppUITests" */;
+			buildPhases = (
+				E181F2C82C1F387700208F27 /* Sources */,
+				E181F2C92C1F387700208F27 /* Frameworks */,
+				E181F2CA2C1F387700208F27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E181F2CE2C1F387700208F27 /* PBXTargetDependency */,
+			);
+			name = "BrieflyWatch Watch AppUITests";
+			productName = "BrieflyWatch Watch AppUITests";
+			productReference = E181F2CC2C1F387700208F27 /* BrieflyWatch Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		E1BCBE3D2C1E6F0000ED7C48 /* Briefly */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1BCBE652C1E6F0200ED7C48 /* Build configuration list for PBXNativeTarget "Briefly" */;
+			buildPhases = (
+				E1BCBE3A2C1E6F0000ED7C48 /* Sources */,
+				E1BCBE3B2C1E6F0000ED7C48 /* Frameworks */,
+				E1BCBE3C2C1E6F0000ED7C48 /* Resources */,
+				E181F2AE2C1F380500208F27 /* Embed Foundation Extensions */,
+				E181F2DA2C1F387700208F27 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E181F2A92C1F380500208F27 /* PBXTargetDependency */,
+				E181F2D52C1F387700208F27 /* PBXTargetDependency */,
+			);
+			name = Briefly;
+			productName = Briefly;
+			productReference = E1BCBE3E2C1E6F0000ED7C48 /* Briefly.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E1BCBE502C1E6F0200ED7C48 /* BrieflyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1BCBE682C1E6F0200ED7C48 /* Build configuration list for PBXNativeTarget "BrieflyTests" */;
+			buildPhases = (
+				E1BCBE4D2C1E6F0200ED7C48 /* Sources */,
+				E1BCBE4E2C1E6F0200ED7C48 /* Frameworks */,
+				E1BCBE4F2C1E6F0200ED7C48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1BCBE532C1E6F0200ED7C48 /* PBXTargetDependency */,
+			);
+			name = BrieflyTests;
+			productName = BrieflyTests;
+			productReference = E1BCBE512C1E6F0200ED7C48 /* BrieflyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E1BCBE5A2C1E6F0200ED7C48 /* BrieflyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1BCBE6B2C1E6F0200ED7C48 /* Build configuration list for PBXNativeTarget "BrieflyUITests" */;
+			buildPhases = (
+				E1BCBE572C1E6F0200ED7C48 /* Sources */,
+				E1BCBE582C1E6F0200ED7C48 /* Frameworks */,
+				E1BCBE592C1E6F0200ED7C48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1BCBE5D2C1E6F0200ED7C48 /* PBXTargetDependency */,
+			);
+			name = BrieflyUITests;
+			productName = BrieflyUITests;
+			productReference = E1BCBE5B2C1E6F0200ED7C48 /* BrieflyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1BCBE362C1E6F0000ED7C48 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					E181F2952C1F380300208F27 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					E181F2B22C1F387600208F27 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					E181F2C12C1F387700208F27 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = E181F2B22C1F387600208F27;
+					};
+					E181F2CB2C1F387700208F27 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = E181F2B22C1F387600208F27;
+					};
+					E1BCBE3D2C1E6F0000ED7C48 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					E1BCBE502C1E6F0200ED7C48 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = E1BCBE3D2C1E6F0000ED7C48;
+					};
+					E1BCBE5A2C1E6F0200ED7C48 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = E1BCBE3D2C1E6F0000ED7C48;
+					};
+				};
+			};
+			buildConfigurationList = E1BCBE392C1E6F0000ED7C48 /* Build configuration list for PBXProject "Briefly" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E1BCBE352C1E6F0000ED7C48;
+			productRefGroup = E1BCBE3F2C1E6F0000ED7C48 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1BCBE3D2C1E6F0000ED7C48 /* Briefly */,
+				E1BCBE502C1E6F0200ED7C48 /* BrieflyTests */,
+				E1BCBE5A2C1E6F0200ED7C48 /* BrieflyUITests */,
+				E181F2952C1F380300208F27 /* BrieflyWidgetsExtension */,
+				E181F2B22C1F387600208F27 /* BrieflyWatch Watch App */,
+				E181F2C12C1F387700208F27 /* BrieflyWatch Watch AppTests */,
+				E181F2CB2C1F387700208F27 /* BrieflyWatch Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E181F2942C1F380300208F27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E181F2A62C1F380500208F27 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E181F2B12C1F387600208F27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E181F2BD2C1F387700208F27 /* Preview Assets.xcassets in Resources */,
+				E181F2BA2C1F387700208F27 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E181F2C02C1F387700208F27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E181F2CA2C1F387700208F27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1BCBE3C2C1E6F0000ED7C48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1BCBE4C2C1E6F0200ED7C48 /* Preview Assets.xcassets in Resources */,
+				E1BCBE482C1E6F0200ED7C48 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1BCBE4F2C1E6F0200ED7C48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1BCBE592C1E6F0200ED7C48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E181F2922C1F380300208F27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E181F2A22C1F380300208F27 /* BrieflyWidgetsControl.swift in Sources */,
+				E181F29E2C1F380300208F27 /* BrieflyWidgetsLiveActivity.swift in Sources */,
+				E181F2A02C1F380300208F27 /* BrieflyWidgetsBundle.swift in Sources */,
+				E181F2A42C1F380300208F27 /* BrieflyWidgets.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E181F2AF2C1F387600208F27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E181F2B82C1F387600208F27 /* ContentView.swift in Sources */,
+				E181F2B62C1F387600208F27 /* BrieflyWatchApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E181F2BE2C1F387700208F27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E181F2C72C1F387700208F27 /* BrieflyWatch_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E181F2C82C1F387700208F27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E181F2D32C1F387700208F27 /* BrieflyWatch_Watch_AppUITestsLaunchTests.swift in Sources */,
+				E181F2D12C1F387700208F27 /* BrieflyWatch_Watch_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1BCBE3A2C1E6F0000ED7C48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E181F28F2C1EA8A600208F27 /* RevenueChartView.swift in Sources */,
+				E1BCBE442C1E6F0000ED7C48 /* ContentView.swift in Sources */,
+				E181F2872C1EA4E800208F27 /* BriefView.swift in Sources */,
+				E181F28B2C1EA53300208F27 /* GradientBackgroundView.swift in Sources */,
+				E181F2912C1EACEB00208F27 /* GreetingView.swift in Sources */,
+				E181F2892C1EA4FD00208F27 /* BriefSectionView.swift in Sources */,
+				E1BCBE462C1E6F0000ED7C48 /* Item.swift in Sources */,
+				E1BCBE422C1E6F0000ED7C48 /* BrieflyApp.swift in Sources */,
+				E181F28D2C1EA68400208F27 /* Graident+Ext.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1BCBE4D2C1E6F0200ED7C48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1BCBE562C1E6F0200ED7C48 /* BrieflyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1BCBE572C1E6F0200ED7C48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1BCBE622C1E6F0200ED7C48 /* BrieflyUITestsLaunchTests.swift in Sources */,
+				E1BCBE602C1E6F0200ED7C48 /* BrieflyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E181F2A92C1F380500208F27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E181F2952C1F380300208F27 /* BrieflyWidgetsExtension */;
+			targetProxy = E181F2A82C1F380500208F27 /* PBXContainerItemProxy */;
+		};
+		E181F2C42C1F387700208F27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E181F2B22C1F387600208F27 /* BrieflyWatch Watch App */;
+			targetProxy = E181F2C32C1F387700208F27 /* PBXContainerItemProxy */;
+		};
+		E181F2CE2C1F387700208F27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E181F2B22C1F387600208F27 /* BrieflyWatch Watch App */;
+			targetProxy = E181F2CD2C1F387700208F27 /* PBXContainerItemProxy */;
+		};
+		E181F2D52C1F387700208F27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E181F2B22C1F387600208F27 /* BrieflyWatch Watch App */;
+			targetProxy = E181F2D42C1F387700208F27 /* PBXContainerItemProxy */;
+		};
+		E1B3F10E2C1F39E10083CA0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E181F2952C1F380300208F27 /* BrieflyWidgetsExtension */;
+			targetProxy = E1B3F10D2C1F39E10083CA0B /* PBXContainerItemProxy */;
+		};
+		E1BCBE532C1E6F0200ED7C48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1BCBE3D2C1E6F0000ED7C48 /* Briefly */;
+			targetProxy = E1BCBE522C1E6F0200ED7C48 /* PBXContainerItemProxy */;
+		};
+		E1BCBE5D2C1E6F0200ED7C48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1BCBE3D2C1E6F0000ED7C48 /* Briefly */;
+			targetProxy = E1BCBE5C2C1E6F0200ED7C48 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E181F2AC2C1F380500208F27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9NG3C5HP77;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BrieflyWidgets/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = BrieflyWidgets;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ai.Briefly.BrieflyWidgets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator watchos watchsimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,4";
+			};
+			name = Debug;
+		};
+		E181F2AD2C1F380500208F27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9NG3C5HP77;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BrieflyWidgets/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = BrieflyWidgets;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ai.Briefly.BrieflyWidgets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator watchos watchsimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,4";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E181F2D82C1F387700208F27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BrieflyWatch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 9NG3C5HP77;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = BrieflyWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.Ai.Briefly;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ai.Briefly.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Debug;
+		};
+		E181F2D92C1F387700208F27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BrieflyWatch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 9NG3C5HP77;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = BrieflyWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.Ai.Briefly;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ai.Briefly.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Release;
+		};
+		E181F2DC2C1F387700208F27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9NG3C5HP77;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Ai.Briefly.BrieflyWatch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BrieflyWatch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BrieflyWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Debug;
+		};
+		E181F2DD2C1F387700208F27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9NG3C5HP77;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Ai.Briefly.BrieflyWatch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BrieflyWatch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BrieflyWatch Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Release;
+		};
+		E181F2DF2C1F387700208F27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9NG3C5HP77;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Ai.Briefly.BrieflyWatch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "BrieflyWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Debug;
+		};
+		E181F2E02C1F387700208F27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9NG3C5HP77;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Ai.Briefly.BrieflyWatch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "BrieflyWatch Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Release;
+		};
+		E1BCBE632C1E6F0200ED7C48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E1BCBE642C1E6F0200ED7C48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		E1BCBE662C1E6F0200ED7C48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Briefly/Briefly.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Briefly/Preview Content\"";
+				DEVELOPMENT_TEAM = 9NG3C5HP77;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ai.Briefly;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				XROS_DEPLOYMENT_TARGET = 1.3;
+			};
+			name = Debug;
+		};
+		E1BCBE672C1E6F0200ED7C48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Briefly/Briefly.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Briefly/Preview Content\"";
+				DEVELOPMENT_TEAM = 9NG3C5HP77;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ai.Briefly;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				XROS_DEPLOYMENT_TARGET = 1.3;
+			};
+			name = Release;
+		};
+		E1BCBE692C1E6F0200ED7C48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9NG3C5HP77;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ai.BrieflyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Briefly.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Briefly";
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		E1BCBE6A2C1E6F0200ED7C48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9NG3C5HP77;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ai.BrieflyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Briefly.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Briefly";
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		E1BCBE6C2C1E6F0200ED7C48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9NG3C5HP77;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ai.BrieflyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_TARGET_NAME = Briefly;
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		E1BCBE6D2C1E6F0200ED7C48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9NG3C5HP77;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ai.BrieflyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_TARGET_NAME = Briefly;
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E181F2AB2C1F380500208F27 /* Build configuration list for PBXNativeTarget "BrieflyWidgetsExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E181F2AC2C1F380500208F27 /* Debug */,
+				E181F2AD2C1F380500208F27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E181F2D72C1F387700208F27 /* Build configuration list for PBXNativeTarget "BrieflyWatch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E181F2D82C1F387700208F27 /* Debug */,
+				E181F2D92C1F387700208F27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E181F2DB2C1F387700208F27 /* Build configuration list for PBXNativeTarget "BrieflyWatch Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E181F2DC2C1F387700208F27 /* Debug */,
+				E181F2DD2C1F387700208F27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E181F2DE2C1F387700208F27 /* Build configuration list for PBXNativeTarget "BrieflyWatch Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E181F2DF2C1F387700208F27 /* Debug */,
+				E181F2E02C1F387700208F27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1BCBE392C1E6F0000ED7C48 /* Build configuration list for PBXProject "Briefly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1BCBE632C1E6F0200ED7C48 /* Debug */,
+				E1BCBE642C1E6F0200ED7C48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1BCBE652C1E6F0200ED7C48 /* Build configuration list for PBXNativeTarget "Briefly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1BCBE662C1E6F0200ED7C48 /* Debug */,
+				E1BCBE672C1E6F0200ED7C48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1BCBE682C1E6F0200ED7C48 /* Build configuration list for PBXNativeTarget "BrieflyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1BCBE692C1E6F0200ED7C48 /* Debug */,
+				E1BCBE6A2C1E6F0200ED7C48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1BCBE6B2C1E6F0200ED7C48 /* Build configuration list for PBXNativeTarget "BrieflyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1BCBE6C2C1E6F0200ED7C48 /* Debug */,
+				E1BCBE6D2C1E6F0200ED7C48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E1BCBE362C1E6F0000ED7C48 /* Project object */;
+}

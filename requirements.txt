@@ -1,0 +1,9 @@
+open-interpreter
+python-dotenv
+pyperclip
+pyautogui
+pywinctl
+opencv-python
+pytesseract 
+pillow 
+pandas
